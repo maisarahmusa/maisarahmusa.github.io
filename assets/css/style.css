@@ -630,9 +630,16 @@ section {
 }
 
 .about .image {
-  background: url("../img/mai.jpg") center center no-repeat;
+  background: url("../img/mai-1.jpg") center center no-repeat;
   background-size: cover;
-  min-height: 500px;
+  width: 300px;
+  height: 300px;
+  /* border-style: solid; */
+  /* min-height: 500px; */
+}
+
+.about .frame {
+  border: 2px solid #ffb727;
 }
 
 .about .skills-content {
@@ -1317,7 +1324,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/laptop.jpeg") top center no-repeat;
   background-size: cover;
   color: #fff;
   font-size: 14px;
@@ -1333,7 +1340,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(26, 18, 18, 0.767);
 }
 
 #footer .container {
